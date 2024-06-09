@@ -1,3 +1,7 @@
+# DEPLOYED VERCEL URL
+
+link: https://e-commerce-client-ayk7acnh1-hieus-projects-29fb3e46.vercel.app/
+
 # DEPLOYED URL
 
 link: https://react-ecommerce-shop-3ffc9.web.app/
@@ -72,4 +76,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # React-Apple-store
