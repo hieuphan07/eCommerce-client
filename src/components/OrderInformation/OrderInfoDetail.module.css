@@ -1,0 +1,46 @@
+.orderInfo {
+	max-width: var(--max-w);
+	margin: 0 auto;
+
+	.orderInfo--title {
+		font-style: italic;
+		font-weight: 500;
+		margin-left: 50px;
+	}
+
+	.orderInfo--contact {
+		font-style: italic;
+		color: var(--grey-light);
+		margin: 20px 0 0 50px;
+		p {
+			margin-top: 10px;
+		}
+	}
+
+	.orderIndo--products {
+		margin-top: 50px;
+		min-width: var(--max-w);
+		border-collapse: collapse;
+
+		thead {
+			tr {
+				background-color: var(--main-grey);
+
+				th {
+					font-weight: 500;
+				}
+			}
+		}
+
+		th,
+		td {
+			padding: 10px;
+			text-align: center;
+			font-style: italic;
+		}
+
+		img {
+			width: 200px;
+		}
+	}
+}

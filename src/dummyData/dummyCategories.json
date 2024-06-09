@@ -1,0 +1,18 @@
+[
+  {
+    "category": "APPLE",
+    "type": [ "All" ]
+  },
+  {
+    "category": "iPHONE & MAC",
+    "type": [ "iPhone", "iPad", "Macbook" ]
+  },
+  {
+    "category": "WIRELESS",
+    "type": [ "Airpod", "Watch" ]
+  },
+  {
+    "category": "OTHER",
+    "type": [ "Mouse", "Keyboard", "Other" ]
+  }
+]

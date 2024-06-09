@@ -1,0 +1,110 @@
+/* Home container */
+
+.container {
+  width: 100%;
+  max-width: var(--max-w);
+  margin: 0 auto;
+}
+
+/* Banner */
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.bannerInfo {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  position: absolute;
+  transform: translate(0, -50%);
+  left: 70px;
+  top: 50%;
+  gap: 20px;
+}
+
+.bannerInfo span:first-child,
+.productTitle span:first-child {
+  font-weight: 400;
+  font-style: italic;
+  color: var(--grey-light);
+  font-size: 1rem;
+}
+
+.bannerInfo span:nth-child(2) {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.bannerInfo button {
+  background-color: #555;
+  color: white;
+  width: fit-content;
+  padding: 7px 20px;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+/* Product list */
+
+.productList {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+.productTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.productTitle > span:first-child {
+  font-size: 1.1rem;
+}
+
+.productTitle > span:nth-child(2) {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.listOne,
+.listTwo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 30px;
+  width: 100%;
+}
+
+.listOne img {
+  width: 50%;
+  height: auto;
+}
+
+.listTwo img {
+  width: 33%;
+  height: auto;
+}
+
+.listTwo img:first-child {
+  justify-self: center;
+}
+
+.productList img {
+  transition: opacity 0.3s ease;
+}
+
+.dimmed {
+  opacity: 0.8;
+  cursor: pointer;
+}

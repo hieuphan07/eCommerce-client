@@ -1,0 +1,25 @@
+.footer {
+  background-color: #000;
+  color: white;
+  width: 100%;
+}
+
+.footer > ul {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 50px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  font-weight: 300;
+}
+
+.footer ul li > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  font-weight: 200;
+  padding-top: 20px;
+}

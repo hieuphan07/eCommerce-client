@@ -1,0 +1,50 @@
+[
+  {
+    "person": "client",
+    "message": "Xin chào"
+  },
+  {
+    "person": "client",
+    "message": "Làm thế nào để xem các sản phẩm"
+  },
+  {
+    "person": "admin",
+    "message": "Chào bạn"
+  },
+  {
+    "person": "admin",
+    "message": "Bạn có thể vào mục Shop để xem các sản phẩm"
+  },
+  {
+    "person": "client",
+    "message": "Xin chào"
+  },
+  {
+    "person": "client",
+    "message": "Làm thế nào để xem các sản phẩm"
+  },
+  {
+    "person": "admin",
+    "message": "Chào bạn"
+  },
+  {
+    "person": "admin",
+    "message": "Bạn có thể vào mục Shop để xem các sản phẩm"
+  },
+  {
+    "person": "client",
+    "message": "Xin chào"
+  },
+  {
+    "person": "client",
+    "message": "Làm thế nào để xem các sản phẩm"
+  },
+  {
+    "person": "admin",
+    "message": "Chào bạn"
+  },
+  {
+    "person": "admin",
+    "message": "Bạn có thể vào mục Shop để xem các sản phẩm"
+  }
+]

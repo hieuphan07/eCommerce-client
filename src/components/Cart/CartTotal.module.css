@@ -1,0 +1,59 @@
+.container {
+  background-color: var(--main-grey);
+  height: fit-content;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem;
+}
+
+.container .wrapper h3 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.3rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.subTotal, .total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-style: italic;
+  padding: 0.5rem 0;
+  font-weight: 400;
+}
+
+.subTotal {
+  border-bottom: 1px solid var(--grey-light);
+}
+
+.subTotal span:last-child {
+  color: var(--grey-light);
+}
+
+.total span:last-child {
+  font-size: 1.3rem;
+}
+
+.wrapper input {
+  font-size: 0.9rem;
+  padding: 0.7rem;
+  margin-top: 1rem;
+  border: 1px solid var(--grey-light);
+}
+
+.wrapper input:focus {
+  outline: none;
+}
+
+.wrapper button {
+  margin: 0;
+  padding: 0.5rem;
+  font-style: normal;
+  font-size: 1rem;
+  background-color: #333;
+  color: #fff
+}

@@ -1,0 +1,76 @@
+.main-header {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.navbar, 
+.navbarLeft, 
+.navbarRight, 
+.navbarMid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+}
+
+.navbar a, 
+.navbar h4 {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #000;
+  font-style: italic;
+}
+
+.navbar a.active,
+.navbar a:hover {
+  cursor: pointer;
+  color: #ffd52f
+}
+
+.navbarMid h4 {
+  font-weight: 400;
+}
+
+button {
+  background-color: #fff;
+  border: none;
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.navbar button:hover,
+.navbar button:active {
+  background-color: transparent !important;
+  color: #ffd52f !important;
+}
+
+.messageIcon {
+  position: fixed;
+  bottom: 50px; 
+  right: 50px; 
+  background-color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  z-index: 100;
+}
+
+.messageIcon img {
+  height: 50px;
+  width: auto;
+}
+
+.messageIcon:hover {
+  background-color: var(--blue-light);
+  width: 50px;
+  height: 50px;
+}

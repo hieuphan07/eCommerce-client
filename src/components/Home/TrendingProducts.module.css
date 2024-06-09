@@ -1,0 +1,162 @@
+.shopList {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 70px;
+}
+
+.shopListTitle {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 0.5rem;
+}
+
+.shopListTitle > span:first-child {
+  font-size: 1.2rem;
+  color: var(--grey-light);
+}
+
+.shopListTitle > span:nth-child(2) {
+  font-size: 1.5rem;
+}
+
+/* Item list */
+
+.shopListItem {
+  list-style: none;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.shopListItem li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.itemName {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.itemPrice {
+  color: var(--grey-light);
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+.shopList ul img {
+  width: 100%;
+  height: auto;
+}
+
+/* Extra information */
+
+.extraInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 70px 150px;
+  background-color: var(--main-grey);
+  margin-top: 50px;
+}
+
+.ship,
+.service,
+.offer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.ship span:first-child,
+.service span:first-child,
+.offer span:first-child {
+  font-size: 1.6rem;
+  font-style: italic;
+}
+
+.ship span:last-child,
+.service span:last-child,
+.offer span:last-child {
+  color: var(--grey-light);
+  font-style: italic;
+}
+
+/* Form footer */
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.form h3 {
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.form p {
+  color: var(--grey-light);
+}
+
+.form input {
+  width: 20rem;
+  height: auto;
+  padding: 20px;
+  border: 1px solid var(--grey-light);
+  font-size: 1.2rem;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.form button {
+  padding: 21px;
+  background-color: #222;
+  color: white;
+  border-style: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.form button:hover,
+form button:focus {
+  opacity: 0.75;
+}
+
+.dimmed {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/*  Mobile */
+@media (max-width: 768px) {
+  .shopListItem {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .form {
+    flex-direction: column;
+    gap: 20px
+  }
+
+  .extraInfo {
+    flex-direction: column;
+    gap: 50px;
+  }
+}

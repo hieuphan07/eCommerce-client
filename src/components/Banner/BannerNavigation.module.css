@@ -1,0 +1,15 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--main-grey);
+  margin: 0 10rem;
+  padding: 5rem 2rem;
+  margin: 0 auto;
+  grid-area: banner;
+  width: 100%;
+}
+
+.banner h2, .banner h4 {
+  color: var(--grey-light);
+}

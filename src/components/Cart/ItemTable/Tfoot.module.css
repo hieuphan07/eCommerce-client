@@ -1,0 +1,14 @@
+tfoot th{
+  font-weight: 300;
+  padding: 1.7rem 1rem;
+  font-style: italic;
+}
+
+tfoot span {
+  padding: 0.5rem 0.7rem;
+  cursor: pointer;
+}
+
+tfoot th:last-of-type span {
+  border: 1px solid #000;
+}

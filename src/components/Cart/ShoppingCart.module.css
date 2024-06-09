@@ -1,0 +1,34 @@
+.cart {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.cart h3 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.cart .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  gap: 1.5rem;
+}
+
+.cart table {
+  border-collapse: collapse;
+}
+
+thead, tfoot {
+  background-color: var(--main-grey);
+}
+
+@media(max-width: 768px) {
+  .cart .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+

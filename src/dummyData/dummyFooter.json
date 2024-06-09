@@ -1,0 +1,56 @@
+{
+  "CUSTOMER SERVICES": [
+    {
+      "id": "cs1",
+      "title": "Help & Contact US"
+    },
+    {
+      "id": "cs2",
+      "title": "Returns and Refunds"
+    },
+    {
+      "id": "cs3",
+      "title": "Online Stores"
+    },
+    {
+      "id": "cs4",
+      "title": "Terms and Conditions"
+    }
+  ],
+  "COMPANY": [
+    {
+      "id": "c1",
+      "title": "What We Do"
+    },
+    {
+      "id": "c2",
+      "title": "Available Services"
+    },
+    {
+      "id": "c3",
+      "title": "Latest Posts"
+    },
+    {
+      "id": "c4",
+      "title": "FAQs"
+    }
+  ],
+  "SOCIAL MEDIA": [
+    {
+      "id": "sm1",
+      "title": "Twitter"
+    },
+    {
+      "id": "sm2",
+      "title": "Instagram"
+    },
+    {
+      "id": "sm3",
+      "title": "Facebook"
+    },
+    {
+      "id": "sm4",
+      "title": "Pinterest"
+    }
+  ]
+}

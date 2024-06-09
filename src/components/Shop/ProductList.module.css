@@ -1,0 +1,12 @@
+.shop {
+  display: grid;
+  grid-template-areas: 
+  "banner banner"
+  "aside content";
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 200px 1fr;
+  row-gap: 40px;
+  max-width: var(--max-w);
+  width: 100%;
+  margin: 0 auto;
+}

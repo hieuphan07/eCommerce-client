@@ -1,0 +1,17 @@
+[
+  {
+    "name": "FREE SHIPPING",
+    "ship": "Free Shipping Worldwide",
+    "class": "ship"
+  },
+  {
+    "name": "24 X 7 SERVICE",
+    "ship": "Free Shipping Worldwide",
+    "class": "service"
+  },
+  {
+    "name": "FESTIVAL OFFER",
+    "ship": "Free Shipping Worldwide",
+    "class": "offer"
+  }
+]

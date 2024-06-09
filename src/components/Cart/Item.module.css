@@ -1,0 +1,35 @@
+.item td {
+  padding: 0.5rem;
+}
+
+.image img {
+  height: 80px;
+  width: auto;
+}
+
+.name {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+.price, 
+.quantity, 
+.amount, 
+.remove {
+  font-size: 0.9rem;
+  color: var(--grey-dark);
+}
+
+.quantity {
+  color: #000;
+  font-size: 1rem;
+}
+
+.quantity span {
+  margin: 0 1rem;
+}
+
+.quantity i, .remove i {
+  cursor: pointer;
+}

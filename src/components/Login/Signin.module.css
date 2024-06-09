@@ -1,0 +1,101 @@
+.signin {
+  background-image: url(../../images/banner1.jpg);
+  background-size: contain;
+  height: 100vh;
+  position: relative;
+}
+
+.wrapper {
+  position: absolute;
+  background-color: #fff;
+  height: fit-content;
+  width: 450px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wrapper form h3 {
+  margin: 5rem auto;
+  color: var(--grey-dark);
+  font-size: 2rem;
+  font-weight: 250;
+  font-style: italic;
+}
+
+.wrapper form input {
+  padding: 1rem;
+  width: 350px;
+  height: 70px;
+  font-size: 1rem;
+  border: 1px solid var(--grey-light);
+  border-bottom: none;
+}
+
+.wrapper form input:focus {
+  outline: none;
+}
+
+.wrapper form input:last-of-type {
+  border-bottom: 1px solid var(--grey-light);
+}
+
+.wrapper form button {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  width: 350px;
+  height: 70px;
+  border: none;
+  margin-top: 1rem;
+}
+
+.wrapper p {
+  margin-top: 3rem;
+  text-align: center;
+  font-style: italic;
+  color: var(--grey-dark);
+}
+
+.wrapper p a {
+  color: var(--blue-light);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.wrapper h1 {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.error-text {
+  color: var(--error-text) !important;
+  padding: 0.5rem 3.5rem 0 3.3rem !important;
+  margin: 0 !important;
+  text-align: left !important;
+  align-self: flex-start;
+  line-height: 1.5;
+}
+
+.logout {
+  padding: 0.5rem 1.5rem;
+  margin: 0 auto;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
