@@ -20,7 +20,7 @@ const initialState = {
 	cartItems: JSON.parse(localStorage.getItem('CART_ITEMS')) || [],
 	total: Number(localStorage.getItem('TOTAL')) || 0,
 	orders: JSON.parse(localStorage.getItem('ORDERS')) || [],
-	url: 'https://ecommerce-shop-5f0427530cdd.herokuapp.com/',
+	url: process.env.REACT_APP_API_URL,
 };
 
 const reducer = (state = initialState, action) => {
