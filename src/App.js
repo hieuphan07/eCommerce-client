@@ -4,14 +4,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import RootLayout from './pages/Root';
 import RouteProtect from './components/RouteProtect/RouteProtect';
 import HomePage, { loader as homeProductsLoader } from './pages/Home';
-// import ErrorPage from "./pages/Error";
-// import ShopPage, { loader as shopProductsLoader } from "./pages/Shop";
-// import DetailPage from "./pages/Detail";
-// import CartPage from "./pages/Cart";
-// import CheckoutPage from "./pages/Checkout";
-// import LoginPage from "./pages/Login";
-// import RegisterPage from "./pages/Register";
 
+const API_URL = process.env.REACT_APP_API_URL;
 const Error = lazy(() => import('./pages/Error'));
 const Shop = lazy(() => import('./pages/Shop'));
 const Detail = lazy(() => import('./pages/Detail'));
@@ -21,7 +15,6 @@ const Login = lazy(() => import('./pages/Login'));
 const Register = lazy(() => import('./pages/Register'));
 const History = lazy(() => import('./pages/History'));
 const OrderInformation = lazy(() => import('./pages/OrderInformation'));
-const url = 'https://ecommerce-shop-5f0427530cdd.herokuapp.com/'; // Change url to "http://localhost:5500/" to use localhost
 
 const router = createBrowserRouter([
 	{
@@ -36,7 +29,7 @@ const router = createBrowserRouter([
 			{
 				index: true,
 				element: <HomePage />,
-				loader: () => homeProductsLoader(url),
+				loader: () => homeProductsLoader(API_URL),
 			},
 			{
 				path: 'shop',
@@ -51,7 +44,7 @@ const router = createBrowserRouter([
 							</Suspense>
 						),
 						loader: () =>
-							import('./pages/Shop').then((module) => module.loader(url)),
+							import('./pages/Shop').then((module) => module.loader(API_URL)),
 					},
 					{
 						path: ':productId',
@@ -63,7 +56,7 @@ const router = createBrowserRouter([
 							</Suspense>
 						),
 						loader: () =>
-							import('./pages/Shop').then((module) => module.loader(url)),
+							import('./pages/Shop').then((module) => module.loader(API_URL)),
 					},
 				],
 			},

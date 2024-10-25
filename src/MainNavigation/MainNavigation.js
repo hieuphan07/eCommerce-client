@@ -41,22 +41,23 @@ const NavBar = () => {
 				const response = await fetch(LOGIN_URL, {
 					credentials: 'include',
 				});
-				const resData = await response.json();
 				if (!response.ok) {
+					const resData = await response.json();
 					if (response.status === 401) {
 						console.log(resData);
 					} else {
 						console.log(`${response.status}: ${response.statusText}`);
 					}
 				} else {
+					const resData = await response.json();
 					dispatch({ type: 'LOGIN', user: resData.userInfo });
 				}
 			} catch (err) {
-				console.log(err);
+				console.error('Network error:', err);
 			}
 		};
 		fetcher();
-	}, []);
+	}, [LOGIN_URL, dispatch]);
 
 	return (
 		<header className={classes['main-header']}>
