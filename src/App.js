@@ -5,7 +5,7 @@ import RootLayout from './pages/Root';
 import RouteProtect from './components/RouteProtect/RouteProtect';
 import HomePage, { loader as homeProductsLoader } from './pages/Home';
 
-const API_URL = process.env.VERCEL_URL;
+const API_URL = process.env.REACT_APP_API_URL;
 
 const ErrorPage = lazy(() => import('./pages/Error'));
 const Shop = lazy(() => import('./pages/Shop'));
